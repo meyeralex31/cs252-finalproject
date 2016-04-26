@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Color Clashers</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="stylesheets/style.css">
+  </head>
+  
+  
+  <body onLoad = onStart()>
+    <table>
+      <tr>
+        <td style= "width:30%;">
+          <a href="waiting.html">
+          </a>
+        <td>
+        <p>Waiting for players: </p>
+        <label id = "numPlay">0/4</label>
+         <p>
+        	<label id = "currentID">GameID:0</label>
+        </p>
+        <p>W,A,S,D to move ENTER to fire</p>
+        <p>Red beats Green, Green beats Blue, Blue beats Red</p>
+        <p>Last blob moving wins!</p>
+     </table>
+     <script type = "text/javascript" src= "jquery/jquery.js"></script>
+	<script type = "text/javascript" src= "javascript/waitingList.js"></script>
+  </body>
+ </html>

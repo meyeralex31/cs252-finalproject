@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>Color Clashers</title>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="stylesheets/style.css">
+  </head>
+
+  <body>
+    <table>
+      <tr>
+        <td style= "width:30%;">
+          <a href="gamePage.html">
+          <img class = "newappIcon" src="images/android_vector.jpg">
+          </a>
+        <td> 
+<legend><h3>Welcome to Color Clashers!</h3></legend>
+<p>
+<label>Enter Username:</label>
+<input type = "text"
+id = "textName" autofocus
+/>
+</p>
+<p>
+<button onclick="getGameID();" id="button">Start New Game</button>
+<label id = "gameID">Waiting for ID<p id = "ID"></p></label>
+</p>
+<p>
+<button onclick="joinFriends();">Join Friends:</button>
+<input type = "text"
+id = "textGameID"
+/>
+</p>
+<p>
+<button onclick="findGameID();">Find Random game</button>
+</p>
+    </table>
+<script type = "text/javascript" src= "jquery/jquery.js"></script>
+<script type = "text/javascript" src= "javascript/index.js"></script>
+  </body>
+
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Color Clashers</title>
+     <SECTION style="border-style: solid; border-width: 2px; width: 800px; background-color: #b9b9b9;">
+	</SECTION>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="stylesheets/style.css">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body onLoad ="start()" >
+    <section style = "border-style: solid; boder-width: 2px; width:800px;background-color:#b9b9b9;">
+    <section id= "left" style = "border-style: solid; boder-width: 2px; width:800px;background-color:#b9b9b9;">
+   	 <CANVAS WIDTH = "800" HEIGHT = "550" ID = "canv" tabindex = "0" autofocus >DOES NOT SUPPORT GAME</CANVAS>
+    </section>
+	<section id="right">
+		<label id = "healthStat"><font size=20 color=#00FF00>Health:100</font></label>
+	</section>
+	<p><font size=2>(W,A,S,D to move and ENTER to fire)</font></p>
+	<button onclick="updateY(0)" onmousedown = "updateY(-5)"><font size=5>UP</font></button>
+	<button onclick="updateY(0)" onmousedown = "updateY(5)"><font size=5>Down</font></button>
+	<button onclick="updateX(0)" onmousedown = "updateX(-5)"><font size=5>Left</font></button>
+	<button onclick="updateX(0)" onmousedown = "updateX(5)"><font size=5>Right</font></button>
+	<button id = "button1" onclick = "fire()"><font size=5>Fire</font></button>
+	<p id = "score"> Hello </p>
+	<script type = "text/javascript" src= "jquery/jquery.js"></script>
+	<script type = "text/javascript" src= "javascript/gamePage.js"></script>
+	</body>
+</html>
